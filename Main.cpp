@@ -15,7 +15,7 @@ using namespace cv;
 int main() {
 
 
-	cout << "Assignment" << endl;
+	cout << "template" << endl;
 
 	return 0;
 }
