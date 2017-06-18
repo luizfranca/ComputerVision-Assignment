@@ -1,5 +1,5 @@
 /*
- * Main.cpp
+ * main.cpp
  *
  *  Created on: Jun 17, 2017
  *      Author: luizdaniel
@@ -16,6 +16,12 @@ int main() {
 
 
 	cout << "template" << endl;
+
+	Mat image = imread("Lenna.png");
+
+	imshow("image", image);
+
+	waitKey();
 
 	return 0;
 }
